@@ -39,7 +39,7 @@ http://dangerousprototypes.com/docs/Bus_Blaster_v3_design_overview
 Flashy Light Build:
 ------------------
 
-![cpld components][cpldparts.jpg]
+![cpld components][https://raw.githubusercontent.com/securelyfitz/44con/master/cpldparts.jpg]
 
 parts:
 ------
@@ -74,7 +74,7 @@ troubleshooting:
 * if you can't recognize/configure the CPLD or lights are very dim, it could be a power issue. double check the 1.8v regulator and that the capacior is in the right direction.
 * if the LEDs go on but don't flash, check your oscillator
 
-![cpld built][cpldbuilt.jpg]
+![cpld built][https://raw.githubusercontent.com/securelyfitz/44con/master/cpldbuilt.jpg]
 
 Glitching build:
 ----------------
