@@ -42,6 +42,7 @@ Flashy Light Build:
 ![cpld components][cpldparts.jpg]
 
 parts:
+------
 * CR2032 battery
 * xilinx xc2c32a CPLD
 * lm3480 1.8v regulator (note pinout!!!)
@@ -53,10 +54,11 @@ parts:
 * CR2032 holder
 
 building:
+--------
 1. solder battery holder onto the back of the board between jp2 3.3v pin and a JTAG GND pin
 1. solder over the solder jumper in the upper right corner of the board
 1. solder lm3480 just below and in between the FTDI and CPLD chips
-	* if you have an AP7313 the pinout is different, rotate it clockwise 120 degrees and solder it
+  * if you have an AP7313 the pinout is different, rotate it clockwise 120 degrees and solder it
 1. solder the tantalum capacitor on C2 with + towards the top of the PCB
 1. put the CR2032 in and test that you have 3ish  volts on the 3.3v pins and 1.8 volts on the right lead of the regulator
 1. remove the CR2032
@@ -68,6 +70,7 @@ building:
 1. using a jtag programmer - Xilinx cable, Bus blaster, or a bus pirate in SVF mode - configure your CPLD and watch lights flash!
 
 troubleshooting:
+---------------
 * if you can't recognize/configure the CPLD or lights are very dim, it could be a power issue. double check the 1.8v regulator and that the capacior is in the right direction.
 * if the LEDs go on but don't flash, check your oscillator
 
