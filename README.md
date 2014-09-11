@@ -27,9 +27,9 @@ CPLD Files
 
 Build options:
 -------------
-# Generic USB Blaster for JTAG OCD, programming, and testing
-# Bare minimum CPLD build for flashing lights
-# Bare minimum CPLD build for cheap glitching
+1. Generic USB Blaster for JTAG OCD, programming, and testing
+1. Bare minimum CPLD build for flashing lights
+1. Bare minimum CPLD build for cheap glitching
 
 USB Blaster Build:
 -----------------
@@ -53,23 +53,23 @@ parts:
 * CR2032 holder
 
 building:
-# solder battery holder onto the back of the board between jp2 3.3v pin and a JTAG GND pin
-# solder over the solder jumper in the upper right corner of the board
-# solder lm3480 just below and in between the FTDI and CPLD chips
+1. solder battery holder onto the back of the board between jp2 3.3v pin and a JTAG GND pin
+1. solder over the solder jumper in the upper right corner of the board
+1. solder lm3480 just below and in between the FTDI and CPLD chips
 	* if you have an AP7313 the pinout is different, rotate it clockwise 120 degrees and solder it
-# solder the tantalum capacitor on C2 with + towards the top of the PCB
-# put the CR2032 in and test that you have 3ish  volts on the 3.3v pins and 1.8 volts on the right lead of the regulator
-# remove the CR2032
-# solder the oscillator in the bottom right. Pin1 is in the far bottom right
-# solder the CPLD in place. Pin1 goes up
-# solder the resistors in place between the 2014 on the bottom. Resistors go on the upper pads
-# solder the LEDs below the resistors. + is to the left, - to the right
-# put the CR2032 back in and test for output from pin 3 of the oscillator (top left) with a multemeter to make sure it's not 0v
-# using a jtag programmer - Xilinx cable, Bus blaster, or a bus pirate in SVF mode - configure your CPLD and watch lights flash!
+1. solder the tantalum capacitor on C2 with + towards the top of the PCB
+1. put the CR2032 in and test that you have 3ish  volts on the 3.3v pins and 1.8 volts on the right lead of the regulator
+1. remove the CR2032
+1. solder the oscillator in the bottom right. Pin1 is in the far bottom right
+1. solder the CPLD in place. Pin1 goes up
+1. solder the resistors in place between the 2014 on the bottom. Resistors go on the upper pads
+1. solder the LEDs below the resistors. + is to the left, - to the right
+1. put the CR2032 back in and test for output from pin 3 of the oscillator (top left) with a multemeter to make sure it's not 0v
+1. using a jtag programmer - Xilinx cable, Bus blaster, or a bus pirate in SVF mode - configure your CPLD and watch lights flash!
 
 troubleshooting:
-# if you can't recognize/configure the CPLD or lights are very dim, it could be a power issue. double check the 1.8v regulator and that the capacior is in the right direction.
-# if the LEDs go on but don't flash, check your oscillator
+* if you can't recognize/configure the CPLD or lights are very dim, it could be a power issue. double check the 1.8v regulator and that the capacior is in the right direction.
+* if the LEDs go on but don't flash, check your oscillator
 
 ![cpld built][cpldbuilt.jpg]
 
