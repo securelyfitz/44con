@@ -1,0 +1,178 @@
+NDS Database:  version P.20131013
+
+NDS_INFO | xbr | 2C32A44VQ | XC2C32A-6-VQ44
+
+DEVICE | 2C32A | 2C32A44VQ | 
+
+NETWORK | conled | 0 | 0 | 1073823750 | 0
+
+MACROCELL_INSTANCE | Inv | led0_MC | conled_COPY_0_COPY_0 | 256 | 0 | 1
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | led0_MC.Q | 168 | ? | 0 | 0 | conled_COPY_0_COPY_0 | NULL | led0_MC.Q | led0_MC | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | led0_MC.SI | led0_MC | 0 | 0 | 2
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | led0_MC.D1 | 166 | ? | 0 | 0 | led0_MC | NULL | NULL | led0_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | led0_MC.D2 | 165 | ? | 0 | 0 | led0_MC | NULL | NULL | led0_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 0 | IV_ZERO
+
+SRFF_INSTANCE | led0_MC.REG | led0_MC | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | led0_MC.D | 164 | ? | 0 | 0 | led0_MC | NULL | NULL | led0_MC.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | led0_MC.Q | 167 | ? | 0 | 0 | led0_MC | NULL | NULL | led0_MC.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | led0 | conled_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | led0_MC.Q | 168 | ? | 0 | 0 | conled_COPY_0_COPY_0 | NULL | led0_MC.Q | led0_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | led0 | 169 | PO | 0 | 0 | conled_COPY_0_COPY_0 | NULL | NULL | led0 | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | Inv | led1_MC | conled_COPY_0_COPY_0 | 256 | 0 | 1
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | led1_MC.Q | 174 | ? | 0 | 0 | conled_COPY_0_COPY_0 | NULL | led1_MC.Q | led1_MC | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | led1_MC.SI | led1_MC | 0 | 0 | 2
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | led1_MC.D1 | 172 | ? | 0 | 0 | led1_MC | NULL | NULL | led1_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | led1_MC.D2 | 171 | ? | 0 | 0 | led1_MC | NULL | NULL | led1_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 0 | IV_ZERO
+
+SRFF_INSTANCE | led1_MC.REG | led1_MC | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | led1_MC.D | 170 | ? | 0 | 0 | led1_MC | NULL | NULL | led1_MC.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | led1_MC.Q | 173 | ? | 0 | 0 | led1_MC | NULL | NULL | led1_MC.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | led1 | conled_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | led1_MC.Q | 174 | ? | 0 | 0 | conled_COPY_0_COPY_0 | NULL | led1_MC.Q | led1_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | led1 | 175 | PO | 0 | 0 | conled_COPY_0_COPY_0 | NULL | NULL | led1 | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | Inv | led2_MC | conled_COPY_0_COPY_0 | 256 | 0 | 1
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | led2_MC.Q | 180 | ? | 0 | 0 | conled_COPY_0_COPY_0 | NULL | led2_MC.Q | led2_MC | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | led2_MC.SI | led2_MC | 0 | 0 | 2
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | led2_MC.D1 | 178 | ? | 0 | 0 | led2_MC | NULL | NULL | led2_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | led2_MC.D2 | 177 | ? | 0 | 0 | led2_MC | NULL | NULL | led2_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 0 | IV_ZERO
+
+SRFF_INSTANCE | led2_MC.REG | led2_MC | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | led2_MC.D | 176 | ? | 0 | 0 | led2_MC | NULL | NULL | led2_MC.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | led2_MC.Q | 179 | ? | 0 | 0 | led2_MC | NULL | NULL | led2_MC.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | led2 | conled_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | led2_MC.Q | 180 | ? | 0 | 0 | conled_COPY_0_COPY_0 | NULL | led2_MC.Q | led2_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | led2 | 181 | PO | 0 | 0 | conled_COPY_0_COPY_0 | NULL | NULL | led2 | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | Inv | led3_MC | conled_COPY_0_COPY_0 | 256 | 0 | 1
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | led3_MC.Q | 186 | ? | 0 | 0 | conled_COPY_0_COPY_0 | NULL | led3_MC.Q | led3_MC | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | led3_MC.SI | led3_MC | 0 | 0 | 2
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | led3_MC.D1 | 184 | ? | 0 | 0 | led3_MC | NULL | NULL | led3_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | led3_MC.D2 | 183 | ? | 0 | 0 | led3_MC | NULL | NULL | led3_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 0 | IV_ZERO
+
+SRFF_INSTANCE | led3_MC.REG | led3_MC | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | led3_MC.D | 182 | ? | 0 | 0 | led3_MC | NULL | NULL | led3_MC.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | led3_MC.Q | 185 | ? | 0 | 0 | led3_MC | NULL | NULL | led3_MC.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | led3 | conled_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | led3_MC.Q | 186 | ? | 0 | 0 | conled_COPY_0_COPY_0 | NULL | led3_MC.Q | led3_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | led3 | 187 | PO | 0 | 0 | conled_COPY_0_COPY_0 | NULL | NULL | led3 | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | Inv | led4_MC | conled_COPY_0_COPY_0 | 256 | 0 | 1
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | led4_MC.Q | 192 | ? | 0 | 0 | conled_COPY_0_COPY_0 | NULL | led4_MC.Q | led4_MC | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | led4_MC.SI | led4_MC | 0 | 0 | 2
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | led4_MC.D1 | 190 | ? | 0 | 0 | led4_MC | NULL | NULL | led4_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | led4_MC.D2 | 189 | ? | 0 | 0 | led4_MC | NULL | NULL | led4_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 0 | IV_ZERO
+
+SRFF_INSTANCE | led4_MC.REG | led4_MC | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | led4_MC.D | 188 | ? | 0 | 0 | led4_MC | NULL | NULL | led4_MC.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | led4_MC.Q | 191 | ? | 0 | 0 | led4_MC | NULL | NULL | led4_MC.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | led4 | conled_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | led4_MC.Q | 192 | ? | 0 | 0 | conled_COPY_0_COPY_0 | NULL | led4_MC.Q | led4_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | led4 | 193 | PO | 0 | 0 | conled_COPY_0_COPY_0 | NULL | NULL | led4 | 0 | 6 | OI_OUT
+
+MACROCELL_INSTANCE | Inv | led5_MC | conled_COPY_0_COPY_0 | 256 | 0 | 1
+OUTPUT_NODE_TYPE | 0 | 0 | MC_Q
+NODE | led5_MC.Q | 198 | ? | 0 | 0 | conled_COPY_0_COPY_0 | NULL | led5_MC.Q | led5_MC | 0 | 0 | MC_Q
+
+SIGNAL_INSTANCE | led5_MC.SI | led5_MC | 0 | 0 | 2
+OUTPUT_NODE_TYPE | 1 | 9 | MC_SI_D1
+SIGNAL | NODE | led5_MC.D1 | 196 | ? | 0 | 0 | led5_MC | NULL | NULL | led5_MC.SI | 1 | 9 | MC_SI_D1
+SPPTERM | 0 | IV_ZERO
+OUTPUT_NODE_TYPE | 2 | 9 | MC_SI_D2
+SIGNAL | NODE | led5_MC.D2 | 195 | ? | 0 | 0 | led5_MC | NULL | NULL | led5_MC.SI | 2 | 9 | MC_SI_D2
+SPPTERM | 0 | IV_ZERO
+
+SRFF_INSTANCE | led5_MC.REG | led5_MC | 0 | 1 | 1
+INPUT_NODE_TYPE | 0 | 8 | SRFF_D
+NODE | led5_MC.D | 194 | ? | 0 | 0 | led5_MC | NULL | NULL | led5_MC.XOR | 0 | 7 | ALU_F
+OUTPUT_NODE_TYPE | 0 | 8 | SRFF_Q
+NODE | led5_MC.Q | 197 | ? | 0 | 0 | led5_MC | NULL | NULL | led5_MC.REG | 0 | 8 | SRFF_Q
+
+OUTPUT_INSTANCE | 0 | led5 | conled_COPY_0_COPY_0 | 3 | 1 | 1
+INPUT_NODE_TYPE | 0 | 6 | OI_IN
+NODE | led5_MC.Q | 198 | ? | 0 | 0 | conled_COPY_0_COPY_0 | NULL | led5_MC.Q | led5_MC | 0 | 0 | MC_Q
+OUTPUT_NODE_TYPE | 0 | 6 | OI_OUT
+NODE | led5 | 199 | PO | 0 | 0 | conled_COPY_0_COPY_0 | NULL | NULL | led5 | 0 | 6 | OI_OUT
+
+FB_INSTANCE | FOOBAR1_ | conled_COPY_0_COPY_0 | 0 | 0 | 0
+FBPIN | 11 | led5_MC | 1 | NULL | 0 | led5 | 1 | 27 | 49152
+FBPIN | 12 | led4_MC | 1 | NULL | 0 | led4 | 1 | 23 | 49152
+FBPIN | 13 | led3_MC | 1 | NULL | 0 | led3 | 1 | 22 | 49152
+FBPIN | 14 | led2_MC | 1 | NULL | 0 | led2 | 1 | 21 | 49152
+FBPIN | 15 | led1_MC | 1 | NULL | 0 | led1 | 1 | 20 | 49152
+FBPIN | 16 | led0_MC | 1 | NULL | 0 | led0 | 1 | 19 | 49152
+
+FB_INSTANCE | FOOBAR2_ | conled_COPY_0_COPY_0 | 0 | 0 | 0
+
+FB_INSTANCE | INPUTPINS_FOOBAR3_ | conled_COPY_0_COPY_0 | 0 | 0 | 0
+
+CT_INSTANCE | FOOBAR1_ | FOOBAR1__ctinst | conled_COPY_0_COPY_0 | 0 | 0 | 0
+
+CT_INSTANCE | FOOBAR2_ | FOOBAR2__ctinst | conled_COPY_0_COPY_0 | 0 | 0 | 0
+
+
+IOSTD | LVCMOS18
+led0 | LVCMOS18
+led1 | LVCMOS18
+led2 | LVCMOS18
+led3 | LVCMOS18
+led4 | LVCMOS18
+led5 | LVCMOS18
+
+

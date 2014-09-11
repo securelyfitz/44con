@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="conled.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_CMD" xil_pn:name="_impact.cmd"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="_impact.log"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="_impactbatch.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="conled.bld"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_CHK" xil_pn:name="conled.chk"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="conled.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_CXT" xil_pn:name="conled.cxt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_GYD" xil_pn:name="conled.gyd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_JEDEC" xil_pn:name="conled.jed"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="conled.log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="conled.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MFD" xil_pn:name="conled.mfd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGA" xil_pn:name="conled.nga"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="conled.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="conled.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="conled.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="conled.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PNX" xil_pn:name="conled.pnx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="conled.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="conled.rpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="conled.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="conled.syr"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="conled.tim"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="conled.tspec"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VM6" xil_pn:name="conled.vm6"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="conled.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="conled.xst"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="conled_build.xml"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="conled_envsettings.html"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="conled_html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="conled_ngdbuild.xrpt"/>
+    <file xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="conled_pad.csv"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="conled_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="conled_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD" xil_pn:name="ise_impact.cmd"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1408990282" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1408990282">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1408990282" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="5433285201114416839" xil_pn:start_ts="1408990282">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1410394986" xil_pn:in_ck="4367015512153" xil_pn:name="TRANEXT_xstsynthesize_xbr" xil_pn:prop_ck="-1139206812157361223" xil_pn:start_ts="1410394979">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="conled.lso"/>
+      <outfile xil_pn:name="conled.ngc"/>
+      <outfile xil_pn:name="conled.ngr"/>
+      <outfile xil_pn:name="conled.prj"/>
+      <outfile xil_pn:name="conled.stx"/>
+      <outfile xil_pn:name="conled.syr"/>
+      <outfile xil_pn:name="conled.xst"/>
+      <outfile xil_pn:name="conled_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1408993035" xil_pn:in_ck="4307851514937" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="5069202361383784887" xil_pn:start_ts="1408993035">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1410394992" xil_pn:in_ck="-3587121567763604044" xil_pn:name="TRAN_ngdbuild" xil_pn:prop_ck="1180904427112756825" xil_pn:start_ts="1410394986">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="conled.bld"/>
+      <outfile xil_pn:name="conled.ngd"/>
+      <outfile xil_pn:name="conled_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1410394997" xil_pn:in_ck="4755679892729404" xil_pn:name="TRANEXT_vm6File_xbr" xil_pn:prop_ck="3842995714468310312" xil_pn:start_ts="1410394992">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="conled.chk"/>
+      <outfile xil_pn:name="conled.cxt"/>
+      <outfile xil_pn:name="conled.gyd"/>
+      <outfile xil_pn:name="conled.log"/>
+      <outfile xil_pn:name="conled.mfd"/>
+      <outfile xil_pn:name="conled.nga"/>
+      <outfile xil_pn:name="conled.pad"/>
+      <outfile xil_pn:name="conled.pnx"/>
+      <outfile xil_pn:name="conled.rpt"/>
+      <outfile xil_pn:name="conled.tim"/>
+      <outfile xil_pn:name="conled.tspec"/>
+      <outfile xil_pn:name="conled.vm6"/>
+      <outfile xil_pn:name="conled.xml"/>
+      <outfile xil_pn:name="conled_build.xml"/>
+      <outfile xil_pn:name="conled_html"/>
+      <outfile xil_pn:name="conled_pad.csv"/>
+    </transform>
+    <transform xil_pn:end_ts="1410394998" xil_pn:in_ck="4755679892738268" xil_pn:name="TRANEXT_crtProg_xbr" xil_pn:prop_ck="5245363024343" xil_pn:start_ts="1410394997">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="conled.jed"/>
+    </transform>
+    <transform xil_pn:end_ts="1410412232" xil_pn:in_ck="4755679892724982" xil_pn:name="TRAN_configureTargetDevice_CPLD" xil_pn:prop_ck="-3223234765801749484" xil_pn:start_ts="1410412230">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_impact.cmd"/>
+      <outfile xil_pn:name="_impact.log"/>
+      <outfile xil_pn:name="_impactbatch.log"/>
+      <outfile xil_pn:name="ise_impact.cmd"/>
+    </transform>
+    <transform xil_pn:end_ts="1408990441" xil_pn:in_ck="4755679892738268" xil_pn:name="TRAN_timRpt" xil_pn:prop_ck="111903974446" xil_pn:start_ts="1408990440">
+      <status xil_pn:value="AbortedRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+    <transform xil_pn:end_ts="1408990456" xil_pn:in_ck="-3587121567763604043" xil_pn:name="TRAN_createTimingConstraints" xil_pn:start_ts="1408990456">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+  </transforms>
+
+</generated_project>

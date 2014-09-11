@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/home/joefitz/Documents/xilinx/conled/impact.xsl
+OUTFILE=/home/joefitz/Documents/xilinx/conled/impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=/home/joefitz/Documents/xilinx/conled
+LICENSE=iMPACT
+USER_INFO=iMPACT

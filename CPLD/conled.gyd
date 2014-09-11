@@ -1,0 +1,18 @@
+Pin Freeze File:  version P.20131013
+
+2C32A44VQ XC2C32A-6-VQ44
+led0 S:PIN19
+led1 S:PIN20
+led2 S:PIN21
+led3 S:PIN22
+led4 S:PIN23
+led5 S:PIN27
+
+
+;The remaining section of the .gyd file is for documentation purposes only.
+;It shows where your internal equations were placed in the last successful fit.
+
+PARTITION FB1_11 led5 led4 led3 led2
+		 led1 led0
+
+

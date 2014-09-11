@@ -1,0 +1,44 @@
+MDF Database:  version 1.0
+MDF_INFO | conled | XC2C32A-6-VQ44
+MACROCELL | 0 | 15 | led0_MC
+ATTRIBUTES | 1074004738 | 0
+INPUTS | 0
+EQ | 1 | 
+   !led0 = Gnd;	// (0 pt, 0 inp)
+
+MACROCELL | 0 | 14 | led1_MC
+ATTRIBUTES | 1074004738 | 0
+INPUTS | 0
+EQ | 1 | 
+   !led1 = Gnd;	// (0 pt, 0 inp)
+
+MACROCELL | 0 | 13 | led2_MC
+ATTRIBUTES | 1074004738 | 0
+INPUTS | 0
+EQ | 1 | 
+   !led2 = Gnd;	// (0 pt, 0 inp)
+
+MACROCELL | 0 | 12 | led3_MC
+ATTRIBUTES | 1074004738 | 0
+INPUTS | 0
+EQ | 1 | 
+   !led3 = Gnd;	// (0 pt, 0 inp)
+
+MACROCELL | 0 | 11 | led4_MC
+ATTRIBUTES | 1074004738 | 0
+INPUTS | 0
+EQ | 1 | 
+   !led4 = Gnd;	// (0 pt, 0 inp)
+
+MACROCELL | 0 | 10 | led5_MC
+ATTRIBUTES | 1074004738 | 0
+INPUTS | 0
+EQ | 1 | 
+   !led5 = Gnd;	// (0 pt, 0 inp)
+
+PIN | led0 | 536871040 | 0 | LVCMOS18 | 30
+PIN | led1 | 536871040 | 0 | LVCMOS18 | 31
+PIN | led2 | 536871040 | 0 | LVCMOS18 | 32
+PIN | led3 | 536871040 | 0 | LVCMOS18 | 33
+PIN | led4 | 536871040 | 0 | LVCMOS18 | 34
+PIN | led5 | 536871040 | 0 | LVCMOS18 | 38
