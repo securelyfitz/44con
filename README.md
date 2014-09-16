@@ -1,4 +1,4 @@
-44con 2014 Badge
+44CON 2014 Badge
 ================
 
 Based on the Dangerous Prototypes Bus Pirate V3c
@@ -6,7 +6,7 @@ Based on the Dangerous Prototypes Bus Pirate V3c
 Summary of changes:
 -------------------
 - changed PCB outline in dp_pcb.lbr
-- added 44con text in 44context.lbr
+- added 44CON text in 44context.lbr
 - added 1.8v LDO for using cpld without FTDI
 - added LEDs and resistors on JP2 spare pins
 - added 5x7mm Oscillator on pin 28
